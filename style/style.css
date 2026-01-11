@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 26px;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-image {
+  width: 50%;
+  height: 50%;
+}
+
+.navbar {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
